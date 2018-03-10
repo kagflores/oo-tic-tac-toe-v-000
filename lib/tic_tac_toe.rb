@@ -30,7 +30,7 @@ end
 
 def valid_move? (index)
 if index.between?(0,8)
-  if position_tak en?(index)
+  if position_taken?(index)
     false
   else true
   end
